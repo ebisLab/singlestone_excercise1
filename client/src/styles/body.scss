@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .filter_container{
+    max-width: 1200px;
+    margin: 0px 15%;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 2em;
+}
+
+.filter_section{
+
+    h3{
+        font-weight: 500;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #47e4c2;
+    }
+    
+    h4{
+        text-transform: uppercase;
+    font-size: 0.9em;
+    }
+
+    p{
+        font-weight: 400;
+    font-size: 0.9em;
+    }
+}
+
+.how_it_works{
+    font-weight: 400;
+    font-size: 1.7em;
+}
+
+.section2_centered{
+    text-align: center;
+}
