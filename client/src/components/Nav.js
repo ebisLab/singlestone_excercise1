@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../logo-endless.svg';
+import logo from '../images/logo-endless.svg';
 
 export default function Nav() {
     return (
