@@ -19,7 +19,7 @@ const filter_through=()=>{
         let is_it_there=item.versionContent.map(thing=>thing)
         if(is_it_there.length >2){
         return (
-        <div className="filter_section" data-testid={`steps-${is_it_there[1].id}`} key={is_it_there[1].id}>
+        <div className="filter_section" data-testid={`steps-${item.id}`} key={item.id}>
             <h3>0{item.stepNumber}</h3>
             <h4>{is_it_there[1].title}</h4>
             <p>{is_it_there[1].body} </p>
@@ -28,7 +28,7 @@ const filter_through=()=>{
         
         else {
             return (
-                <div className="filter_section" data-testid={`steps-${is_it_there[0].id}`} key={is_it_there[0].id}>
+                <div className="filter_section" data-testid={`steps-${item.id}`} key={item.id}>
                 <h3>0{item.stepNumber}</h3>
                 <h4>{is_it_there[0].title}</h4>
                 <p>{is_it_there[0].body} </p>
