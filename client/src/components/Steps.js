@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import {mock} from '../mock'
 
 export default function Steps() {
     const [data, setData]=useState()
